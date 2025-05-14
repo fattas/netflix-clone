@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)), url(imagesloginPage/login-Page-bg.jpeg);
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan ukuran layar */
+    background-position: center; /* Memusatkan gambar latar belakang */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    height: 100vh; /* Memastikan tinggi halaman penuh */
+}
+
+.login-top {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0); /* Transparan */
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.login-top img {
+    width: 150px; /* Ukuran logo */
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.899);
+    width: 430px;
+    height: 630px;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 0 auto; /* Memusatkan box login */
+    position: relative;
+    z-index: 1; /* Memastikan box di atas background */
+}
+
+.login-box h2 {
+    color: white;
+}
+
+.small-text {
+    font-size: 13px;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
