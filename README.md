@@ -1,1 +1,1 @@
-# Demo: https://netflix-clone-peach-chi.vercel.app/
+# Web: https://netflix-clone-peach-chi.vercel.app/
